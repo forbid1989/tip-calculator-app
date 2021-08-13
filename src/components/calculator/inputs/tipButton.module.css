@@ -1,0 +1,45 @@
+.button {
+  height: 48px;
+  width: 146.63px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 0px;
+  cursor: pointer;
+  background-color: #00474b;
+  font-family: "SpaceMono-Bold";
+  font-weight: 24;
+  font-size: 24px;
+}
+
+.button:hover {
+  background-color: #9fe8df;
+  color: black;
+}
+
+.button:focus {
+  background-color: #26c2ae;
+  color: black;
+}
+
+@media (min-width: 824px) {
+  .button {
+    height: 48px;
+    width: 105px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 0px;
+    cursor: pointer;
+    background-color: #00474b;
+    font-family: "SpaceMono-Bold";
+    font-weight: 24;
+    font-size: 24px;
+  }
+}

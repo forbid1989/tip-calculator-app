@@ -1,0 +1,28 @@
+.button {
+  height: 48px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  color: #00474b;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 0px;
+  cursor: pointer;
+  background-color: #26c2ae;
+  font-family: "SpaceMono-Bold";
+  font-weight: 24;
+  font-size: 24px;
+  margin-top: auto;
+}
+
+.button:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+}
+
+.button:disabled,
+.button[disabled] {
+  background-color: #0d686d;
+  color: #00474b;
+}

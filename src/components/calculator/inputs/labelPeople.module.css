@@ -1,0 +1,23 @@
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.peopleLabel {
+  font-weight: bold;
+  font-family: "SpaceMono";
+  font-style: normal;
+  font-size: 16px;
+  color: #5e7a7d;
+  padding: 0;
+  margin: 0;
+}
+
+.error {
+  color: #e17457;
+  font-family: "SpaceMono-Bold";
+  font-size: 16px;
+}

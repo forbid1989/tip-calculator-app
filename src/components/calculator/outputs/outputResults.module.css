@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.labelBox {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.labelBox p {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-family: "SpaceMono-Bold";
+}
+
+.label {
+  font-size: 16px;
+  color: white;
+}
+
+.perPerson {
+  font-size: 13px;
+  color: #7f9d9f;
+}
+
+.amount {
+  width: 70%;
+  text-align: right;
+}
+
+.amount h1 {
+  font-size: 32px;
+  color: #26c2ae;
+  font-family: "SpaceMono-Bold";
+  margin: 0;
+}
+
+@media (min-width: 824px) {
+  .amount h1 {
+    font-size: 48px;
+    color: #26c2ae;
+    font-family: "SpaceMono-Bold";
+    margin: 0;
+  }
+}

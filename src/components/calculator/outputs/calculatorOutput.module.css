@@ -1,0 +1,21 @@
+.container {
+  height: 37%;
+  width: 100%;
+  background-color: #00474b;
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 824px) {
+  .container {
+    height: 100%;
+    width: 47%;
+    background-color: #00474b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
