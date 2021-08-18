@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import classes from "./App.module.css";
 import Splitter from "./components/logo"
 import CalculatorContainer from "./components/calculator/calculatorContainer"
